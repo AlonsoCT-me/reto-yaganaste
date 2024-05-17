@@ -12,7 +12,8 @@ const Home: React.FC = () => {
     const fetchBanks = async () => {
       try {
         const response = await fetch('https://dev.obtenmas.com/catom/api/challenge/banks', {
-          headers: {
+        mode: 'no-cors',
+        headers: {
             'X-Requested-With': 'XMLHttpRequest',
           },
         });
