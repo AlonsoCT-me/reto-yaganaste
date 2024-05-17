@@ -1,0 +1,45 @@
+.bank-list-container {
+    @apply container mx-auto px-4 py-8;
+  }
+
+  .bank-list {
+    @apply p-0;
+  }
+
+  .bank-list-title {
+    @apply text-2xl font-bold mb-4 font-lato;
+  }
+
+  .bank-list-item {
+    @apply bg-white shadow-md rounded-lg p-4 mb-4 flex items-stretch;
+  }
+
+  .bank-list-logo {
+    @apply w-16 h-16 mr-4;
+  }
+
+  .bank-logo-img {
+    @apply w-full h-auto object-contain;
+  }
+
+  .bank-details {
+    h2 {
+      @apply text-xl font-semibold font-lato m-0;
+    }
+
+    p {
+      @apply font-roboto;
+
+      &.description {
+        @apply text-gray-700;
+      }
+
+      &.age {
+        @apply text-gray-500;
+      }
+    }
+
+    a {
+      @apply text-blue-500 hover:underline font-roboto;
+    }
+  }
