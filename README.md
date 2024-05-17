@@ -32,14 +32,14 @@ Esta aplicación es una página web que muestra una lista de bancos obtenida des
 4.  `BankList` recibe la lista de bancos y los muestra en la página, o muestra un mensaje si no hay bancos.
 
 
-## Getting Started
+## Problemas con cORS
 
+Tuve algunos problemas para resolver el tema de CORS de lado de VERCEL,los pude mitigar usando server components de NextJS
+
+
+## Getting Started
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-
-## Problemas con CORS
-
-Tuve algunos problemas para resolver el tema de CORS de lado de VERCEL,los pude mitigar usando server components de NextJS.
 
 
 First, run the development server:
