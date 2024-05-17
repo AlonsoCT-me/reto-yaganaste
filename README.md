@@ -30,9 +30,13 @@ Esta aplicación es una página web que muestra una lista de bancos obtenida des
 2.  La función `getBanks` realiza una solicitud a la API y devuelve los datos en formato JSON.
 3.  El componente `Home` recibe estos datos y los pasa como propiedad al componente `BankList`.
 4.  `BankList` recibe la lista de bancos y los muestra en la página, o muestra un mensaje si no hay bancos.
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
 
 ## Getting Started
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+
 
 First, run the development server:
 
