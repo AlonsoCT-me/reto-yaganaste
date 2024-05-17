@@ -11,12 +11,7 @@ const Home: React.FC = () => {
   useEffect(() => {
     const fetchBanks = async () => {
       try {
-        const response = await fetch('https://dev.obtenmas.com/catom/api/challenge/banks', {
-        mode: 'no-cors',
-        headers: {
-            'X-Requested-With': 'XMLHttpRequest',
-          },
-        });
+        const response = await fetch('https://dev.obtenmas.com/catom/api/challenge/banks');
         const data = await response.json();
         setBanks(data);
         setLoading(false);
@@ -35,7 +30,6 @@ const Home: React.FC = () => {
     </div>
   ) : (
     <BankList banks={banks} />
-
   );
 };
 
